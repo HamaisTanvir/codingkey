@@ -5,7 +5,7 @@ import { stats } from '../constants/data'
 
 const AchievementsCounter = () => {
   return (
-    <div className='bg-[#F8F8F8] mb-36'>
+    <div className='bg-[#F8F8F8]'>
       <div className='max-w-full text-center mt-36 py-16'>
         <h1 className='text-[48px] font-[700] text-[#333333]'>Empowered Together: Achievements</h1>
         <h2 className='text-[15px] font-[400] text-[#696969]'>CodingKey is a team of senior industry professionals with proven delivery track record and international exposure</h2>

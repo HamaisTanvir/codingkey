@@ -2,7 +2,7 @@ import React from 'react'
 import HeroSection from './HeroSection'
 import LogosCloudSlider from './LogosCloudSlider'
 import AchievementsCounter from './AchievementsCounter'
-
+import CoreServices from './CoreServices'
 
 const Home = () => {
   return (
@@ -10,6 +10,7 @@ const Home = () => {
       <HeroSection />
       <LogosCloudSlider />
       <AchievementsCounter />
+      <CoreServices />
     </div>
   )
 }
