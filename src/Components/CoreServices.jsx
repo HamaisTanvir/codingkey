@@ -9,7 +9,7 @@ const CoreServices = () => {
             <h2 className='text-[15px] font-[400] text-[#696969]'>In a short time, CodingKey has achieved immense recognition across wide range of service domains</h2>
         </div>
 
-        <div className='grid grid-cols-3 max-w-full mx-auto px-20 pb-24 pt-10 bg-gradient-to-b from-white to-[#F5F5F5]'>
+        <div className='grid grid-cols-1 md:grid-cols-3 max-w-full mx-auto px-20 pb-24 pt-10 bg-gradient-to-b from-white to-[#F5F5F5]'>
             {coreValuesI.map((value) => (
                 <div className='flex'>
                     {/* <div className='relative flex flex-col items-center text-center gap-y-5 border border-dashed
