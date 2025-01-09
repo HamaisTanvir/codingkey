@@ -11,12 +11,12 @@ const LogosCloudSlider = () => {
     <>
       <div className='container md:max-w-7xl px-10 py-8 mx-auto'>
           <Slider {...logosSettings}>
-              {logos.map((logo, key ) => (
+              {logos.map((logo, index ) => (
                   <div className='flex justify-center focus:outline-none px-4'>
                       <img
-                      key={key} 
+                      key={index} 
                       src={logo} 
-                      alt={`Logo ${key+1}`}
+                      alt={`Logo ${index+1}`}
                       className='h-44 w-full object-contain filter grayscale hover:filter-none transition duration-300 focus:border-none focus:outline-none'
                       />
                   </div>

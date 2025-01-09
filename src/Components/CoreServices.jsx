@@ -10,8 +10,8 @@ const CoreServices = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 max-w-full mx-auto px-4 md:px-20 pb-24 pt-10 bg-gradient-to-b from-white to-[#F5F5F5]'>
-            {coreValuesI.map((value) => (
-                <div className='flex'>
+            {coreValuesI.map((value, key) => (
+                <div className='flex' key={key}>
                     {/* <div className='relative flex flex-col items-center text-center gap-y-5 border border-dashed
                     hover:shadow-2xl border-slate-300 p-8 transform transition-transform duration-300 ease-[cubic-bezier(0.645,0.045,0.355,1)] hover:scale-100 hover:border-transparent hover:z-10'> */}
                         <div className="flex flex-col items-center text-center gap-y-5 border border-dashed bg-gradient-to-b from-white to-[#F5F5F5]
@@ -24,8 +24,8 @@ const CoreServices = () => {
                 </div>
             ))}
 
-            {coreValuesII.map((value) => (
-                <div className='flex'>
+            {coreValuesII.map((value, key) => (
+                <div className='flex' key={key}>
                         <div className="relative flex flex-col items-center text-center gap-y-5 border border-dashed bg-gradient-to-b from-white to-[#F5F5F5] hover:bg-gradient-white
                         border-slate-300 p-8 bg-white transition-all duration-300 ease-[cubic-bezier(0.645,0.045,0.355,1)]
                         hover:shadow-xl hover:scale-105 hover:z-10 hover:border-transparent">
@@ -36,8 +36,8 @@ const CoreServices = () => {
                 </div>
             ))}
 
-            {coreValuesIII.map((value) => (
-                <div className='flex'>
+            {coreValuesIII.map((value, key) => (
+                <div className='flex' key={key}>
                         <div className="relative flex flex-col items-center text-center gap-y-5 border border-dashed bg-gradient-to-b from-white to-[#F5F5F5]
                         border-slate-300 p-8 bg-white transition-all duration-300 ease-[cubic-bezier(0.645,0.045,0.355,1)]
                         hover:shadow-xl hover:scale-105 hover:z-10 hover:border-transparent">

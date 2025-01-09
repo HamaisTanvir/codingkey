@@ -21,7 +21,47 @@ import devOps from '../assets/devops.png'
 import uiUX from '../assets/uiux.png'
 import digiMktng from '../assets/marketing.png'
 
-
+import ios from '../assets/ios.png'
+import android from '../assets/android.png'
+import flutter from '../assets/Flutter.png'
+import ionic from '../assets/Ionic.png'
+import swift from '../assets/Swift.png'
+import kotlin from '../assets/kotlin.png'
+import objectiveC from '../assets/ObjectiveC.png'
+import titanium from '../assets/Titanium.png'
+import xamarin from '../assets/Xamarin.png'
+import angular from '../assets/Angular.png'
+import reactNative from '../assets/React.png'
+import typescript from '../assets/TypeScript.png'
+import vue from '../assets/Vue.png'
+import wpf from '../assets/WPF.png'
+import html5 from '../assets/HTML5.png'
+import mongoDB from '../assets/Mongo DB.png'
+import mySql from '../assets/MySQL.png'
+import msSql from '../assets/MsSQL.png'
+import firebase from '../assets/Firebase.png'
+import realm from '../assets/Realm.png'
+import dynamoDB from '../assets/DynamoDB.png'
+import oracle from '../assets/Oracle.png'
+import postgreSql from '../assets/PostgreSQL.png'
+import php from '../assets/PHP.png'
+import java from '../assets/Java.png'
+import Net from '../assets/NET.png'
+import nodeJs from '../assets/Node.png'
+import rails from '../assets/Rails.png'
+import python from '../assets/Python.png'
+import drupal from '../assets/Drupal.png'
+import joomla from '../assets/Joomla.png'
+import wordpress from '../assets/Wordpress.png'
+import magento from '../assets/Magento.png'
+import shopify from '../assets/Shopify.png'
+import aws from '../assets/AWS.png'
+import google from '../assets/Google Cloud.png'
+import gradle from '../assets/Gradle.png'
+import jenkin from '../assets/Jenkins.png'
+import appium from '../assets/Appium.png'
+import seleinum from '../assets/Seleinum.png'
+import azure from '../assets/azure.png'
 
 export const navItems = [
     {title: 'Home', slug: '/',},
@@ -82,7 +122,7 @@ export const logosSettings = {
   export const stats = [
     {id: 1, text: 'Average Experience', value: 8, icon: <Calendar />, suffix: '+ Years'},
     {id: 2, text: 'Successful Deliveries', value: 500, icon: <ThumbsUp />, suffix: '+ Projects'},
-    {id: 2, text: 'Customer Coverage', value: 4, icon: <Globe />, suffix: '+ Continents' },
+    {id: 3, text: 'Customer Coverage', value: 4, icon: <Globe />, suffix: '+ Continents' },
   ]
 
   export const coreValuesI = [
@@ -100,4 +140,64 @@ export const logosSettings = {
     {id: 7, title: 'Infrastructure & DevOps', desc: 'DevOps will automate and optimize your IT processes where our expert DevOps engineers will help attune the delivery, deployment, development, security, and support of any high-load, fail-safe system with microservices architecture — so your business strategy can always rely on high-quality software.', icon: `${devOps}`},
     {id: 8, title: 'UI/UX Design', desc: 'Want to build your product with a team that establishes a clear design process, meets deadlines, and delivers a spot-on end result? Our design team has created a large variety of applications and products for all major industries. Our designers work with you to understand your brand, challenges, business goals, and how your end users will interact with your product or application.', icon: `${uiUX}`},
     {id: 9, title: 'Digital Marketing', desc: 'Our technology experts work hand in hand with your marketing team to help them get the most out of the software and platforms that underlie your digital marketing strategy in return that promotes your brand and drives sales. We provide the custom digital marketing solutions you need to add content across multiple channels, integrate your existing systems, and get your site running perfectly for great user experience.', icon: `${digiMktng}`},
+  ]
+
+  export const tabMobile = [
+    {id: 1, brand: 'iOS', icon: `${ios}` },
+    {id: 2, brand: 'Android', icon: `${android}` },
+    {id: 3, brand: 'React Native', icon: `${reactNative}` },
+    {id: 4, brand: 'Flutter', icon: `${flutter}` },
+    {id: 5, brand: 'Ionic', icon: `${ionic}` },
+    {id: 6, brand: 'Swift', icon: `${swift}` },
+    {id: 7, brand: 'Kotlin', icon: `${kotlin}` },
+    {id: 8, brand: 'ObjectiveC', icon: `${objectiveC}` },
+    {id: 9, brand: 'Titanium', icon: `${titanium}` },
+    {id: 10, brand: 'Xamarin', icon: `${xamarin}` }
+  ]
+
+  export const tabFrontEnd = [
+    {id: 1, brand: 'Angular', icon: `${angular}` },
+    {id: 2, brand: 'React Js', icon: `${reactNative}` },
+    {id: 3, brand: 'TypeScript', icon: `${typescript}` },
+    {id: 4, brand: 'Vue', icon: `${vue}` },
+    {id: 5, brand: 'WPF', icon: `${wpf}` },
+    {id: 6, brand: 'Html5', icon: `${html5}` },
+  ]
+
+  export const tabDatabase = [
+    {id: 1, brand: 'Mongo DB', icon: `${mongoDB}` },
+    {id: 2, brand: 'MySQL', icon: `${mySql}` },
+    {id: 3, brand: 'MsSQL', icon: `${msSql}` },
+    {id: 4, brand: 'Firebase', icon: `${firebase}` },
+    {id: 5, brand: 'Realm', icon: `${realm}` },
+    {id: 6, brand: 'DynamoDB', icon: `${dynamoDB}` },
+    {id: 7, brand: 'Oracle', icon: `${oracle}` },
+    {id: 8, brand: 'PostgreSQL', icon: `${postgreSql}` },
+  ]
+
+  export const tabBackEnd = [
+    {id: 1, brand: 'PHP', icon: `${php}` },
+    {id: 2, brand: 'Java', icon: `${java}` },
+    {id: 3, brand: '.NET', icon: `${Net}` },
+    {id: 4, brand: 'Node.Js', icon: `${nodeJs}` },
+    {id: 5, brand: 'Rails', icon: `${rails}` },
+    {id: 6, brand: 'Python', icon: `${python}` },
+  ]
+
+  export const tabCMS = [
+    {id: 1, brand: 'Drupal', icon: `${drupal}` },
+    {id: 2, brand: 'Joomla', icon: `${joomla}` },
+    {id: 3, brand: 'Wordpress', icon: `${wordpress}` },
+    {id: 4, brand: 'Magento', icon: `${magento}` },
+    {id: 5, brand: 'Shopify', icon: `${shopify}` },  
+  ]
+
+  export const tabDevops = [
+    {id: 1, brand: 'AWS', icon: `${aws}` },
+    {id: 2, brand: 'Google Cloud', icon: `${google}` },
+    {id: 3, brand: 'Gradle', icon: `${gradle}` },
+    {id: 4, brand: 'Jenkins', icon: `${jenkin}` },
+    {id: 5, brand: 'Appium', icon: `${appium}` },
+    {id: 5, brand: 'Seleinum', icon: `${seleinum}` },
+    {id: 5, brand: 'Azure', icon: `${azure}` },
   ]
