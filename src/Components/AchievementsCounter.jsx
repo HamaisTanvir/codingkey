@@ -12,7 +12,7 @@ const AchievementsCounter = () => {
       </div>
 
       {/* <------------ //// Counter \\\\ ---------->  */}
-      <div className="max-w-7xl mb-20 mx-auto pb-20 pr-16">
+      <div className="max-w-7xl mx-auto pb-20 pr-16">
         <dl className='grid grid-col-1 md:grid-cols-3 gap-x-12 gap-y-8 md:gap-y-0'>
           {stats.map((stat) => 
 

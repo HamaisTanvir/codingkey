@@ -63,6 +63,13 @@ import appium from '../assets/Appium.png'
 import seleinum from '../assets/Seleinum.png'
 import azure from '../assets/azure.png'
 
+import collaborations from '../assets/collaboration.png'
+import professionals from '../assets/user.png'
+import quality from '../assets/medal.png'
+import support from '../assets/support.png'
+import transparency from '../assets/transparency.png'
+import privacy from '../assets/privacy.png'
+
 export const navItems = [
     {title: 'Home', slug: '/',},
     {title: 'About us', slug: '/about-us',},
@@ -201,3 +208,16 @@ export const logosSettings = {
     {id: 5, brand: 'Seleinum', icon: `${seleinum}` },
     {id: 5, brand: 'Azure', icon: `${azure}` },
   ]
+
+  export const outSourcingI = [
+    {id: 1, title: 'Remote Collaborations', desc: 'Our decades of experience has taught us how to take care of the pain points in remote collaborations, through best practices and lean processes.', icon: `${collaborations}`},
+    {id: 2, title: 'Team of Professionals', desc: 'We always ensure to provide a team of senior professionals to bring reliability and predictability to project deliverables.', icon: `${professionals}`},
+    {id: 3, title: 'Quality', desc: 'CodingKey thrives off an environment where quality has evolved to become an embedded part of our teams culture.', icon: `${quality}`},
+  ]
+
+  export const outSourcingII = [
+    {id: 1, title: '360 Degree Support', desc: 'We provide 360 degree support to our customers through a diverse skill set, involving all phases of product life cycle.', icon: `${support}`},
+    {id: 2, title: 'Transparency', desc: 'We aim to be transparent in all aspects of our collaborations, to strengthen and support a long-term customer relationship.', icon: `${transparency}`},
+    {id: 3, title: 'Data Privacy and IP', desc: 'We ensure appropriate legal and contractual measures, up to customers satisfaction to address any data privacy & IP concerns.', icon: `${privacy}`},
+  ]
+ 

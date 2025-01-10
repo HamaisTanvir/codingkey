@@ -4,6 +4,8 @@ import LogosCloudSlider from './LogosCloudSlider'
 import AchievementsCounter from './AchievementsCounter'
 import CoreServices from './CoreServices'
 import BasicTabs from './BasicTabs'
+import FurtherInfo from './FurtherInfo'
+import OutsourcingPartner from './OutsourcingPartner'
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <AchievementsCounter />
       <CoreServices />
       <BasicTabs />
+      <FurtherInfo />
+      <OutsourcingPartner />
     </div>
   )
 }
