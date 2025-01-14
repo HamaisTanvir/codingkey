@@ -221,3 +221,49 @@ export const logosSettings = {
     {id: 3, title: 'Data Privacy and IP', desc: 'We ensure appropriate legal and contractual measures, up to customers satisfaction to address any data privacy & IP concerns.', icon: `${privacy}`},
   ]
  
+  export const testimonials = [
+    {id: 1, title: 'Director of Software Design & Delivery', desig: '/ Innovation Consultancy', 
+      text: 'Im excited to share my excellent experience working with Coding Key. When partnering with a new team, communication and work quality are my deal-breakers, and Im happy to say Coding Key shined in both areas. They werent just engineering experts but also a true pleasure to work with. They took the time to explore different technical paths for our project, doing all the necessary homework to ensure we were on solid ground. I always found their recommendations to be well thought out, clearly communicated and technically sound. Despite the projects evolving requirements, they consistently delivered top-notch work on time and within budget. I highly recommend Coding Key as a trustworthy and competent offshore development partner. Theyve earned my trust and respect, and Im looking forward to our continued collaboration.'},
+    {id: 2, title: 'VP Product Strategy', desig: '/ Innovation Consultancy' ,
+      text: 'Im excited to share my excellent experience working with Coding Key. When partnering with a new team, communication and work quality are my deal-breakers, and Im happy to say Coding Key shined in both areas. They werent just engineering experts but also a true pleasure to work with. They took the time to explore different technical paths for our project, doing all the necessary homework to ensure we were on solid ground. I always found their recommendations to be well thought out, clearly communicated and technically sound. Despite the projects evolving requirements, they consistently delivered top-notch work on time and within budget. I highly recommend Coding Key as a trustworthy and competent offshore development partner. Theyve earned my trust and respect, and Im looking forward to our continued collaboration.'},
+    {id: 3, title: 'Zebulon Evans', desig: '/ CTO - ClientPoint',
+      text: 'Im excited to share my excellent experience working with Coding Key. When partnering with a new team, communication and work quality are my deal-breakers, and Im happy to say Coding Key shined in both areas. They werent just engineering experts but also a true pleasure to work with. They took the time to explore different technical paths for our project, doing all the necessary homework to ensure we were on solid ground. I always found their recommendations to be well thought out, clearly communicated and technically sound. Despite the projects evolving requirements, they consistently delivered top-notch work on time and within budget. I highly recommend Coding Key as a trustworthy and competent offshore development partner. Theyve earned my trust and respect, and Im looking forward to our continued collaboration.'},
+  ]
+
+  export const sliderSettings = {
+    dots: true,
+    infinite: false,
+    autoplay: false,
+    speed: 1000,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows:false,
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: '10px',
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: '5px',
+        },
+      },
+    ],
+  };

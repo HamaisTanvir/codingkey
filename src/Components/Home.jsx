@@ -6,6 +6,7 @@ import CoreServices from './CoreServices'
 import BasicTabs from './BasicTabs'
 import FurtherInfo from './FurtherInfo'
 import OutsourcingPartner from './OutsourcingPartner'
+import PraiseAbout from './PraiseAbout'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <BasicTabs />
       <FurtherInfo />
       <OutsourcingPartner />
+      <PraiseAbout />
     </div>
   )
 }

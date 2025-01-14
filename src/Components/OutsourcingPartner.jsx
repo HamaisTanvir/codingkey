@@ -3,7 +3,7 @@ import { outSourcingI, outSourcingII } from '../constants/data'
 
 const OutsourcingPartner = () => {
   return (
-    <div className='mb-24 bg-gradient-to-b from-[#F8F8F8] to-[#F8F8F8]'>
+    <div className='mb-20 bg-gradient-to-b from-[#F8F8F8] to-[#F8F8F8]'>
         <div className='text-center  mx-auto py-24'>
             <h1 className='text-[40px] font-[700] text-[#333333]'>Why <span className='text-[40px] 
              font-[700] text-[#43B7C5]'>CodingKey </span> </h1>
