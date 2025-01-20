@@ -71,55 +71,55 @@ const Footer = () => {
                 <h1 className='text-[18px] font-[700] text-[#fff] pb-4 md:pb-8'>IT Services</h1>
                 
                     <div className='relative group flex items-center'>
-                        <Link to={''}><h1 className='text-[15px] text-[#fff] font-[400]'>Cloud Solutions</h1></Link>
+                        <Link to={'http://localhost:3000/services'}><h1 className='text-[15px] text-[#fff] font-[400]'>Cloud Solutions</h1></Link>
                         <span class="absolute left-0 bottom-[-3px] w-0 h-[1px] bg-[#43B7C5] transition-all
                         duration-700 group-hover:w-[145px]"></span>
                     </div>
               
                     <div className='relative group flex items-center mt-4'>
-                        <Link to={''}><h1 className='text-[15px] text-[#fff] font-[400]'>Mobile App Development</h1></Link>
+                        <Link to={'http://localhost:3000/services'}><h1 className='text-[15px] text-[#fff] font-[400]'>Mobile App Development</h1></Link>
                         <span class="absolute left-0 bottom-[-3px] w-0 h-[1px] bg-[#43B7C5] transition-all
                         duration-700 group-hover:w-[225px]"></span>
                     </div>
                 
                     <div className='relative group flex items-center mt-4'>
-                        <Link to={''}><h1 className='text-[15px] text-[#fff] font-[400]'>Quality Assurance</h1></Link>
+                        <Link to={'http://localhost:3000/services'}><h1 className='text-[15px] text-[#fff] font-[400]'>Quality Assurance</h1></Link>
                         <span class="absolute left-0 bottom-[-3px] w-0 h-[1px] bg-[#43B7C5] transition-all
                         duration-700 group-hover:w-[165px]"></span>
                     </div>
 
                     <div className='relative group flex items-center mt-4'>
-                        <Link to={''}><h1 className='text-[15px] text-[#fff] font-[400]'>Testing & Automation</h1></Link>
+                        <Link to={'http://localhost:3000/services'}><h1 className='text-[15px] text-[#fff] font-[400]'>Testing & Automation</h1></Link>
                         <span class="absolute left-0 bottom-[-3px] w-0 h-[1px] bg-[#43B7C5] transition-all
                         duration-700 group-hover:w-[198px]"></span>
                     </div>
 
                     <div className='relative group flex items-center mt-4'>
-                        <Link to={''}><h1 className='text-[15px] text-[#fff] font-[400]'>Data Science</h1></Link>
+                        <Link to={'http://localhost:3000/services'}><h1 className='text-[15px] text-[#fff] font-[400]'>Data Science</h1></Link>
                         <span class="absolute left-0 bottom-[-3px] w-0 h-[1px] bg-[#43B7C5] transition-all
                         duration-700 group-hover:w-[120px]"></span>
                     </div>
 
                     <div className='relative group flex items-center mt-4'>
-                        <Link to={''}><h1 className='text-[15px] text-[#fff] font-[400]'>Internet of Things (IOT)</h1></Link>
+                        <Link to={'http://localhost:3000/services'}><h1 className='text-[15px] text-[#fff] font-[400]'>Internet of Things (IOT)</h1></Link>
                         <span class="absolute left-0 bottom-[-3px] w-0 h-[1px] bg-[#43B7C5] transition-all
                         duration-700 group-hover:w-[205px]"></span>
                     </div>
 
                     <div className='relative group flex items-center mt-4'>
-                        <Link to={''}><h1 className='text-[15px] text-[#fff] font-[400]'>Infrastructure & Devops</h1></Link>
+                        <Link to={'http://localhost:3000/services'}><h1 className='text-[15px] text-[#fff] font-[400]'>Infrastructure & Devops</h1></Link>
                         <span class="absolute left-0 bottom-[-3px] w-0 h-[1px] bg-[#43B7C5] transition-all
                         duration-700 group-hover:w-[213px]"></span>
                     </div>
 
                     <div className='relative group flex items-center mt-4'>
-                        <Link to={''}><h1 className='text-[15px] text-[#fff] font-[400]'>UI/ UX Design</h1></Link>
+                        <Link to={'http://localhost:3000/services'}><h1 className='text-[15px] text-[#fff] font-[400]'>UI/ UX Design</h1></Link>
                         <span class="absolute left-0 bottom-[-3px] w-0 h-[1px] bg-[#43B7C5] transition-all
                         duration-700 group-hover:w-[120px]"></span>
                     </div>
 
                     <div className='relative group flex items-center mt-4'>
-                        <Link to={''}><h1 className='text-[15px] text-[#fff] font-[400]'>Digital Marketing</h1></Link>
+                        <Link to={'http://localhost:3000/services'}><h1 className='text-[15px] text-[#fff] font-[400]'>Digital Marketing</h1></Link>
                         <span class="absolute left-0 bottom-[-3px] w-0 h-[1px] bg-[#43B7C5] transition-all
                         duration-700 group-hover:w-[153px]"></span>
                     </div>
