@@ -1,13 +1,15 @@
 import React from 'react'
 import { coreValuesI, coreValuesII, coreValuesIII } from '../constants/data'
 
-const CoreServices = () => {
+const CoreServices = ({showHeading, customMargin}) => {
   return (
     <div className='mb-24 pt-16 bg-gradient-to-b from-[#FEFEFE] to-[#FEFEFE]'>
-        <div className='text-center my-6'>
-            <h1 className='text-[48px] font-[700] text-[#333333]'>Our Core Services</h1>
-            <h2 className='text-[15px] font-[400] text-[#696969]'>In a short time, CodingKey has achieved immense recognition across wide range of service domains</h2>
-        </div>
+        <div className={` ${customMargin || ''}  text-center my-6 core-h1`}>
+            {!showHeading && 
+            <h1 className='text-[48px] font-[700] text-[#333333]'>Our Core Services</h1> }
+            {!showHeading && <h2 className='text-[15px] font-[400] text-[#696969]'>In a short time, CodingKey has achieved
+             immense recognition across wide range of service domains</h2> }
+       </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 max-w-full mx-auto px-4 md:px-20 pb-24 pt-10 bg-gradient-to-b from-[#FEFEFE] to-[#F8F8F8]'>
             {coreValuesI.map((value, key) => (
